@@ -16,10 +16,21 @@ rightArrow.addEventListener('click', function () {
 const proSlide = new Swiper('.pro_slide', {
     loop: true,
     slidesPerView: 4,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
     spaceBetween: 30,
     pagination: {
         el: ".sbar",
         type: "progressbar",
+    },
+
+    scrollbar: {
+        el: ".drag",
+        draggable: true,
+        dragSize: 300,
+        hide: false,
     },
 
 })

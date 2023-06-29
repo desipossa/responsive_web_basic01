@@ -167,7 +167,22 @@ p {
     overflow: hidden;
 }
 
+#MainEvent .drag {
+    position: relative;
+    max-width: 1170rem;
+    margin: 30rem auto;
+    background: var(--gc50);
+
+    height: 20rem;
+    border-radius: 10rem;
+    overflow: hidden;
+}
+
 #MainEvent .sbar span {
+    background: tomato;
+}
+
+#MainEvent .drag .swiper-scrollbar-drag {
     background: tomato;
 }
 
