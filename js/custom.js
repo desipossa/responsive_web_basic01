@@ -29,7 +29,7 @@ const proSlide = new Swiper('.pro_slide', {
     scrollbar: {
         el: ".drag",
         draggable: true,
-        dragSize: 300,
+        dragSize: 150,
         hide: false,
     },
 
