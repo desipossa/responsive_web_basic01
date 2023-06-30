@@ -71,7 +71,7 @@ p {
 }
 
 #Header h1 {
-    flex: 1 0 170rem;
+    flex: 0 0 170rem;
 }
 
 #Header .inner {
