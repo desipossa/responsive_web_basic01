@@ -60,7 +60,7 @@ p {
         }
     }
 
-    @media (max-width: var(--ms)) {
+    @media (width <=540px) {
         & {
             padding: 50rem 0;
         }
